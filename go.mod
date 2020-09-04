@@ -21,7 +21,7 @@ require (
 	github.com/revel/cron v0.21.0
 	github.com/revel/log15 v2.11.20+incompatible // indirect
 	github.com/revel/pathtree v0.0.0-20140121041023-41257a1839e9 // indirect
-	github.com/revel/revel v0.21.0
+	github.com/revel/revel v1.0.0
 	github.com/twinj/uuid v1.0.0 // indirect
 	github.com/tylerb/gls v0.0.0-20150407001822-e606233f194d
 	github.com/tylerb/is v2.1.4+incompatible // indirect
@@ -36,3 +36,5 @@ require (
 	gopkg.in/stack.v0 v0.0.0-20141108040640-9b43fcefddd0 // indirect
 	gopkg.in/stretchr/testify.v1 v1.2.2 // indirect
 )
+
+replace github.com/revel/revel v1.0.0 => github.com/terhitormanen/revel v1.0.0
